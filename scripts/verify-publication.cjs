@@ -72,6 +72,18 @@ if (siteIndex !== -1) {
         }
     };
     scan(site);
+    for (const page of fs.readdirSync(site).filter(file => file.endsWith('.html'))) {
+        const html = fs.readFileSync(path.join(site, page), 'utf8');
+        for (const match of html.matchAll(/<script\b[^>]*\bsrc="([^"]+)"/gi)) {
+            if (/^(?:[a-z]+:|\/\/)/i.test(match[1])) continue;
+            const url = new URL(match[1], 'https://sllm.invalid/');
+            const target = path.resolve(site, `.${url.pathname}`);
+            if (!target.startsWith(`${site}${path.sep}`) ||
+                url.searchParams.get('v') !== hash(target).slice(0, 16)) {
+                fail(`Unversioned or stale script URL in ${page}: ${match[1]}`);
+            }
+        }
+    }
     for (const page of ['index.html', 'credits.html', 'terms.html', 'privacy.html']) {
         const html = fs.readFileSync(path.join(site, page), 'utf8');
         if (html.includes('googletagmanager.com/gtm.js')) fail('Analytics must be disabled in public profile.');

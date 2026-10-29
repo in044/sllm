@@ -24,5 +24,6 @@ run(process.execPath, [path.join(root, 'node_modules/webpack/bin/webpack.js'), '
     env: {...process.env, CI: '1', NODE_ENV: 'production', SLLM_PUBLIC_RELEASE: '1',
         SLLM_SOURCE_DIR: path.join(output, 'sources'), SLLM_OUTPUT_DIR: path.join(output, 'site')}
 });
+run(process.execPath, ['scripts/version-public-html.cjs', path.join(output, 'site')]);
 run(process.execPath, ['scripts/verify-publication.cjs', '--site', path.join(output, 'site')]);
 console.log(`Review site: ${path.join(output, 'site')}. Nothing has been published or deployed.`);

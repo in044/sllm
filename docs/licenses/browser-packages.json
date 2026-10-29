@@ -5170,7 +5170,7 @@
     "packages/scratch-gui/src/components/menu-bar/login-dropdown.jsx": "6cbde6a2e2c459b838b271d15fe837f33f0493ddc59db7679c934672d889a3b0",
     "packages/scratch-gui/src/components/menu-bar/menu-bar-menu.jsx": "7fd4eabb286fdfd5572c41fbfe5581283897b38c7e29da3af3a7bc128a0c1bd5",
     "packages/scratch-gui/src/components/menu-bar/menu-bar.css": "ae9deb64353064c605890ede8474aad82ed528e0d656779fd38998a8a1c2a0a5",
-    "packages/scratch-gui/src/components/menu-bar/menu-bar.jsx": "d504c0565bd845ac61217ee210e67fc5c01e280a4945bb3d41e2e29693704e95",
+    "packages/scratch-gui/src/components/menu-bar/menu-bar.jsx": "d77793853ca3db2300725241e7cb9d31028910dfcdbe66a12ccca3be44701c3d",
     "packages/scratch-gui/src/components/menu-bar/project-title-input.css": "f82c5466fa66a24040375c04d91fe756570a5059cb3f18183cd5ee6ed3707f32",
     "packages/scratch-gui/src/components/menu-bar/project-title-input.jsx": "38f225f42f16c75efb03f927a911925a91ea16b2337983fcf85d2b060ca8f588",
     "packages/scratch-gui/src/components/menu-bar/s-llm-logo.svg": "5f808f271242572bde3f4b06f6baf1779cf42015c244d7dc870583e82f82df26",

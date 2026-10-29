@@ -21,7 +21,9 @@ cp -a /etc/systemd/system/sllm.service "$backup/sllm.service"
 cp -a /etc/nginx/sites-available/sllm "$backup/sllm.nginx"
 printf '%s\n' "$previous" > "$backup/previous-release"
 rollback() {
-    trap - ERR
+    status=${1:-1}
+    trap - ERR INT TERM
+    set +e
     echo "Activation failed. Restoring $previous" >&2
     cp -a "$backup/sllm.service" /etc/systemd/system/sllm.service
     cp -a "$backup/sllm.nginx" /etc/nginx/sites-available/sllm
@@ -30,8 +32,11 @@ rollback() {
     systemctl daemon-reload
     systemctl restart sllm.service
     /usr/sbin/nginx -t && systemctl reload nginx
+    exit "$status"
 }
-trap rollback ERR
+trap 'rollback $?' ERR
+trap 'rollback 130' INT
+trap 'rollback 143' TERM
 install -m 644 "$release/deploy/public.service" /etc/systemd/system/sllm.service
 install -m 644 "$release/deploy/public.nginx" /etc/nginx/sites-available/sllm
 # Existing nginx logrotate policy covers /var/log/nginx/*.log, daily, 14 rotations.
@@ -41,12 +46,17 @@ ln -s "$release" "$base/current.next"
 mv -Tf "$base/current.next" "$base/current"
 systemctl daemon-reload
 systemctl restart sllm.service
-curl --retry 10 --retry-all-errors --retry-delay 1 --connect-timeout 3 --max-time 10 -fsS http://127.0.0.1:3002/api/status >/dev/null
+healthy=0
+for attempt in {1..20}; do
+    if curl --max-time 2 -fsS http://127.0.0.1:3002/api/status >/dev/null 2>&1; then healthy=1; break; fi
+    sleep 1
+done
+if [[ $healthy != 1 ]]; then journalctl -u sllm.service -n 30 --no-pager; false; fi
 [[ $(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:3002/admin) == 404 ]]
 [[ $(curl -s -o /dev/null -w '%{http_code}' -H 'Content-Type: application/json' -d '{}' http://127.0.0.1:3002/api/llm) == 403 ]]
 systemctl reload nginx
 curl -fsS https://sllm.kyurururn.net/credits.html | grep -Fq 'S-LLM'
 [[ $(curl -s -o /dev/null -w '%{http_code}' https://sllm.kyurururn.net/admin) == 404 ]]
 [[ $(curl -s -o /dev/null -w '%{http_code}' -H 'Content-Type: application/json' -d '{}' https://sllm.kyurururn.net/api/llm) == 403 ]]
-trap - ERR
+trap - ERR INT TERM
 printf 'Published %s\nPrevious release: %s\nConfig backup: %s\n' "$release_id" "$previous" "$backup"

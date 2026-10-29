@@ -6,10 +6,12 @@ After=network.target
 User=www-data
 Group=www-data
 WorkingDirectory=/var/www/sllm/current/server
+RuntimeDirectory=sllm
+RuntimeDirectoryMode=0750
 EnvironmentFile=/var/www/sllm/shared/backend.env
 Environment=SLLM_PUBLIC_RELEASE=1
 Environment=PYTHONDONTWRITEBYTECODE=1
-ExecStart=/usr/bin/env SLLM_PUBLIC_RELEASE=1 /var/www/sllm/venv/bin/gunicorn --threads 8 --workers 1 --bind 127.0.0.1:3002 --error-logfile /dev/stderr --log-level warning app:app
+ExecStart=/usr/bin/env SLLM_PUBLIC_RELEASE=1 /var/www/sllm/venv/bin/gunicorn --threads 8 --workers 1 --bind 127.0.0.1:3002 --control-socket /run/sllm/gunicorn.ctl --error-logfile - --log-level warning app:app
 Restart=on-failure
 RestartSec=3
 NoNewPrivileges=true

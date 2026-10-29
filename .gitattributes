@@ -47,6 +47,8 @@
 *.test.*.snap text eol=lf
 *.ts text eol=lf
 *.txt text eol=lf
+# Preserve upstream license text bytes collected into the combined notice.
+/THIRD_PARTY_NOTICES.txt -text
 *.vert text eol=lf
 *.xml text eol=lf
 *.yaml text eol=lf

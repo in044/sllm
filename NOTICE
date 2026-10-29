@@ -1,0 +1,23 @@
+S-LLM
+
+S-LLM is a modified version of Scratch Editor, with natural-language programming
+assistance, AI chat, asset selection, and server integration.
+Fork changes are recorded in the Git history from 2026-02-24 onward.
+License and attribution integration updated: 2026-10-29.
+
+Upstream: https://github.com/scratchfoundation/scratch-editor
+Fork source: https://github.com/in044/sllm
+Additional Git remote: https://github.com/kyurururn/sllm
+The public source offer uses in044/sllm; it does not depend on the other remote.
+
+Copyright notices of Massachusetts Institute of Technology, Scratch Foundation,
+and upstream contributors are retained in the original files and package NOTICEs.
+See legal/package-notices/ in built distributions, or packages/*/NOTICE in source.
+Fork contributors and modification dates are recorded in Git history.
+
+S-LLM is distributed under AGPL-3.0-only. See LICENSE for the full terms.
+Third-party libraries and assets retain their own licenses and notices.
+See THIRD_PARTY_NOTICES.txt, PYTHON_THIRD_PARTY_NOTICES.txt, and ASSET_NOTICES.md.
+
+S-LLM is not an official product of, or endorsed by, Scratch Foundation or MIT.
+Trademark notices do not grant permission to use the marks for endorsement.

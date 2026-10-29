@@ -1,0 +1,2908 @@
+[
+  {
+    "name": "@nicolo-ribaudo/chokidar-2",
+    "version": "2.1.8-no-fsevents.3",
+    "location": "node_modules/@nicolo-ribaudo/chokidar-2",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": true,
+    "source": "https://github.com/nicolo-ribaudo/chokidar-2",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "@pnpm/config.env-replace",
+    "version": "1.1.0",
+    "location": "node_modules/@pnpm/config.env-replace",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/pnpm/components",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "@pnpm/network.ca-file",
+    "version": "1.0.2",
+    "location": "node_modules/@pnpm/network.ca-file",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/pnpm/components",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "@npmcli/node-gyp",
+    "version": "2.0.0",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/@npmcli/node-gyp",
+    "license": "ISC",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/npm/node-gyp.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "agent-base",
+    "version": "6.0.2",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/agent-base",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/TooTallNate/node-agent-base.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "err-code",
+    "version": "2.0.3",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/err-code",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/IndigoUnited/js-err-code.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "http-proxy-agent",
+    "version": "5.0.0",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/http-proxy-agent",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/TooTallNate/node-http-proxy-agent.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "https-proxy-agent",
+    "version": "5.0.1",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/https-proxy-agent",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/TooTallNate/node-https-proxy-agent.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "imurmurhash",
+    "version": "0.1.4",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/imurmurhash",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/jensyt/imurmurhash-js",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "ip",
+    "version": "2.0.0",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/ip",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "http://github.com/indutny/node-ip.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "qrcode-terminal",
+    "version": "0.12.0",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/qrcode-terminal",
+    "license": [
+      {
+        "type": "Apache 2.0"
+      }
+    ],
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/gtanner/qrcode-terminal",
+    "licenseFiles": [
+      "LICENSE"
+    ],
+    "licenseTextSource": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/qrcode-terminal",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "socks-proxy-agent",
+    "version": "7.0.0",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/socks-proxy-agent",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/TooTallNate/node-socks-proxy-agent.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "spdx-exceptions",
+    "version": "2.3.0",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/spdx-exceptions",
+    "license": "CC-BY-3.0",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "kemitchell/spdx-exceptions.json",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "spdx-license-ids",
+    "version": "3.0.11",
+    "location": "node_modules/@semantic-release/npm/node_modules/npm/node_modules/spdx-license-ids",
+    "license": "CC0-1.0",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "jslicense/spdx-license-ids",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "@transifex/api",
+    "version": "7.1.4",
+    "location": "node_modules/@transifex/api",
+    "license": "Apache-2.0",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git://github.com/transifex/transifex-javascript.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "@types/json5",
+    "version": "0.0.29",
+    "location": "node_modules/@types/json5",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "adm-zip",
+    "version": "0.4.11",
+    "location": "node_modules/adm-zip",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/cthackers/adm-zip.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "array-ify",
+    "version": "1.0.0",
+    "location": "node_modules/array-ify",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "stevemao/array-ify",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "asn1.js",
+    "version": "4.10.1",
+    "location": "node_modules/asn1.js",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git@github.com:indutny/asn1.js",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "assert-plus",
+    "version": "1.0.0",
+    "location": "node_modules/assert-plus",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/mcavage/node-assert-plus.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-code-frame",
+    "version": "6.26.0",
+    "location": "node_modules/babel-code-frame",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-code-frame",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-core",
+    "version": "7.0.0-bridge.0",
+    "location": "node_modules/babel-core",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://registry.npmjs.org/babel-core/-/babel-core-7.0.0-bridge.0.tgz",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-generator",
+    "version": "6.26.1",
+    "location": "node_modules/babel-generator",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-generator",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-helpers",
+    "version": "6.24.1",
+    "location": "node_modules/babel-helpers",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-helpers",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-jest",
+    "version": "21.2.0",
+    "location": "node_modules/babel-jest",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-messages",
+    "version": "6.23.0",
+    "location": "node_modules/babel-messages",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-messages",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-plugin-extract-format-message",
+    "version": "6.2.4",
+    "location": "node_modules/babel-plugin-extract-format-message",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "format-message/format-message",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-plugin-jest-hoist",
+    "version": "21.2.0",
+    "location": "node_modules/babel-plugin-jest-hoist",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-plugin-syntax-object-rest-spread",
+    "version": "6.13.0",
+    "location": "node_modules/babel-plugin-syntax-object-rest-spread",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-object-rest-spread",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-plugin-transform-es2015-modules-commonjs",
+    "version": "6.26.2",
+    "location": "node_modules/babel-plugin-transform-es2015-modules-commonjs",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-commonjs",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-plugin-transform-format-message",
+    "version": "6.2.4",
+    "location": "node_modules/babel-plugin-transform-format-message",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "format-message/format-message",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-plugin-transform-strict-mode",
+    "version": "6.24.1",
+    "location": "node_modules/babel-plugin-transform-strict-mode",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-strict-mode",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-preset-jest",
+    "version": "21.2.0",
+    "location": "node_modules/babel-preset-jest",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-register",
+    "version": "6.26.0",
+    "location": "node_modules/babel-register",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-register",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-core",
+    "version": "6.26.3",
+    "location": "node_modules/babel-register/node_modules/babel-core",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-core",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "slash",
+    "version": "1.0.0",
+    "location": "node_modules/babel-register/node_modules/slash",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "sindresorhus/slash",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-runtime",
+    "version": "6.26.0",
+    "location": "node_modules/babel-runtime",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-runtime",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "regenerator-runtime",
+    "version": "0.11.1",
+    "location": "node_modules/babel-runtime/node_modules/regenerator-runtime",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-template",
+    "version": "6.26.0",
+    "location": "node_modules/babel-template",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-template",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-traverse",
+    "version": "6.26.0",
+    "location": "node_modules/babel-traverse",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-traverse",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-types",
+    "version": "6.26.0",
+    "location": "node_modules/babel-types",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-types",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "base64-loader",
+    "version": "1.0.0",
+    "location": "node_modules/base64-loader",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git+ssh://git@github.com/antelle/base64-loader.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "boolbase",
+    "version": "1.0.0",
+    "location": "node_modules/boolbase",
+    "license": "ISC",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/fb55/boolbase",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "brorand",
+    "version": "1.1.0",
+    "location": "node_modules/brorand",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git@github.com:indutny/brorand",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "browser-stdout",
+    "version": "1.3.0",
+    "location": "node_modules/browser-stdout",
+    "license": "ISC",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "http://github.com/kumavis/browser-stdout.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "bser",
+    "version": "2.1.1",
+    "location": "node_modules/bser",
+    "license": "Apache-2.0",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/watchman",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "buffer-alloc",
+    "version": "1.2.0",
+    "location": "node_modules/buffer-alloc",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "LinusU/buffer-alloc",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "buffer-alloc-unsafe",
+    "version": "1.1.0",
+    "location": "node_modules/buffer-alloc-unsafe",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "LinusU/buffer-alloc-unsafe",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "buffer-equal",
+    "version": "0.0.1",
+    "location": "node_modules/buffer-equal",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git://github.com/substack/node-buffer-equal.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "buffer-fill",
+    "version": "1.0.0",
+    "location": "node_modules/buffer-fill",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "LinusU/buffer-fill",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "lowercase-keys",
+    "version": "1.0.0",
+    "location": "node_modules/cacheable-request/node_modules/lowercase-keys",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "sindresorhus/lowercase-keys",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "callsite",
+    "version": "1.0.0",
+    "location": "node_modules/callsite",
+    "license": "UNKNOWN",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://registry.npmjs.org/callsite/-/callsite-1.0.0.tgz",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "review-license",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "capture-exit",
+    "version": "1.2.0",
+    "location": "node_modules/capture-exit",
+    "license": "ISC",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/stefanpenner/capture-exit.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "colors",
+    "version": "0.6.2",
+    "location": "node_modules/colors",
+    "license": "UNKNOWN",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "http://github.com/Marak/colors.js.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "review-license",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "console-browserify",
+    "version": "1.2.0",
+    "location": "node_modules/console-browserify",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "http://github.com/browserify/console-browserify/raw/master/LICENSE"
+      }
+    ],
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/browserify/console-browserify.git",
+    "licenseFiles": [
+      "LICENCE"
+    ],
+    "licenseTextSource": "node_modules/console-browserify",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "constants-browserify",
+    "version": "1.0.0",
+    "location": "node_modules/constants-browserify",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/juliangruber/constants-browserify.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "cookie-signature",
+    "version": "1.0.6",
+    "location": "node_modules/cookie-signature",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/visionmedia/node-cookie-signature.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "chokidar",
+    "version": "1.7.0",
+    "location": "node_modules/cpx/node_modules/chokidar",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/paulmillr/chokidar.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "crc32",
+    "version": "0.2.2",
+    "location": "node_modules/crc32",
+    "license": "UNKNOWN",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "http://github.com/beatgammit/crc32.git",
+    "licenseFiles": [
+      "LICENSE.MIT"
+    ],
+    "licenseTextSource": "node_modules/crc32",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "cssstyle",
+    "version": "1.4.0",
+    "location": "node_modules/cssstyle",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "jsakas/CSSStyleDeclaration",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "des.js",
+    "version": "1.1.0",
+    "location": "node_modules/des.js",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+ssh://git@github.com/indutny/des.js.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "dom-walk",
+    "version": "0.1.2",
+    "location": "node_modules/dom-walk",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "http://github.com/Raynos/dom-walk/raw/master/LICENSE"
+      }
+    ],
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git://github.com/Raynos/dom-walk.git",
+    "licenseFiles": [
+      "LICENCE"
+    ],
+    "licenseTextSource": "node_modules/dom-walk",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "elliptic",
+    "version": "6.6.1",
+    "location": "node_modules/elliptic",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git@github.com:indutny/elliptic",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "enhanced-resolve",
+    "version": "0.9.1",
+    "location": "node_modules/enhanced-resolve",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+      }
+    ],
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/webpack/enhanced-resolve.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "review-license",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "errno",
+    "version": "0.1.8",
+    "location": "node_modules/errno",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/rvagg/node-errno.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "prelude-ls",
+    "version": "1.1.2",
+    "location": "node_modules/escodegen/node_modules/prelude-ls",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "https://raw.github.com/gkz/prelude-ls/master/LICENSE"
+      }
+    ],
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/gkz/prelude-ls.git",
+    "licenseFiles": [
+      "LICENSE"
+    ],
+    "licenseTextSource": "node_modules/escodegen/node_modules/prelude-ls",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "eslint-import-resolver-webpack",
+    "version": "0.11.1",
+    "location": "node_modules/eslint-import-resolver-webpack",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/benmosher/eslint-plugin-import.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "eslint-plugin-format-message",
+    "version": "6.2.4",
+    "location": "node_modules/eslint-plugin-format-message",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "format-message/format-message",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "esrecurse",
+    "version": "4.3.0",
+    "location": "node_modules/esrecurse",
+    "license": "BSD-2-Clause",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/estools/esrecurse.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "expect",
+    "version": "21.2.1",
+    "location": "node_modules/expect",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "exports-loader",
+    "version": "0.6.3",
+    "location": "node_modules/exports-loader",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+      }
+    ],
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git@github.com:webpack/exports-loader.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "review-license",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "source-map",
+    "version": "0.1.43",
+    "location": "node_modules/exports-loader/node_modules/source-map",
+    "license": [
+      {
+        "type": "BSD",
+        "url": "http://opensource.org/licenses/BSD-3-Clause"
+      }
+    ],
+    "developmentOnly": false,
+    "optional": false,
+    "source": "http://github.com/mozilla/source-map.git",
+    "licenseFiles": [
+      "LICENSE"
+    ],
+    "licenseTextSource": "node_modules/exports-loader/node_modules/source-map",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "fb-watchman",
+    "version": "2.0.2",
+    "location": "node_modules/fb-watchman",
+    "license": "Apache-2.0",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git@github.com:facebook/watchman.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "find-index",
+    "version": "0.1.1",
+    "location": "node_modules/find-index",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/jsdf/find-index.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "findit",
+    "version": "2.0.0",
+    "location": "node_modules/findit",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "http://github.com/substack/node-findit.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "findup",
+    "version": "0.1.5",
+    "location": "node_modules/findup",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "http  : //www.opensource.org/licenses/MIT"
+      }
+    ],
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/Filirom1/findup.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "review-license",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "commander",
+    "version": "2.1.0",
+    "location": "node_modules/findup/node_modules/commander",
+    "license": "UNKNOWN",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/visionmedia/commander.js.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "review-license",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "format-message-cli",
+    "version": "6.2.4",
+    "location": "node_modules/format-message-cli",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "format-message/format-message",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "prelude-ls",
+    "version": "1.1.2",
+    "location": "node_modules/format-message-cli/node_modules/prelude-ls",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "https://raw.github.com/gkz/prelude-ls/master/LICENSE"
+      }
+    ],
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/gkz/prelude-ls.git",
+    "licenseFiles": [
+      "LICENSE"
+    ],
+    "licenseTextSource": "node_modules/format-message-cli/node_modules/prelude-ls",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "format-message-estree-util",
+    "version": "6.2.4",
+    "location": "node_modules/format-message-estree-util",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "format-message/format-message",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "format-message-generate-id",
+    "version": "6.2.4",
+    "location": "node_modules/format-message-generate-id",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "format-message/format-message",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "format-message-print",
+    "version": "6.2.4",
+    "location": "node_modules/format-message-print",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "format-message/format-message",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "fs-exists-cached",
+    "version": "1.0.0",
+    "location": "node_modules/fs-exists-cached",
+    "license": "ISC",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/isaacs/fs-exists-cached.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "function-loop",
+    "version": "2.0.1",
+    "location": "node_modules/function-loop",
+    "license": "ISC",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/isaacs/function-loop.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "glob-to-regexp",
+    "version": "0.4.1",
+    "location": "node_modules/glob-to-regexp",
+    "license": "BSD-2-Clause",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/fitzgen/glob-to-regexp.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "glob2base",
+    "version": "0.0.12",
+    "location": "node_modules/glob2base",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "http://github.com/wearefractal/glob2base/raw/master/LICENSE"
+      }
+    ],
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/wearefractal/glob2base.git",
+    "licenseFiles": [
+      "LICENSE"
+    ],
+    "licenseTextSource": "node_modules/glob2base",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "growl",
+    "version": "1.10.3",
+    "location": "node_modules/growl",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git://github.com/tj/node-growl.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "growly",
+    "version": "1.3.0",
+    "location": "node_modules/growly",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "http://github.com/theabraham/growly",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "handle-thing",
+    "version": "2.0.1",
+    "location": "node_modules/handle-thing",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+ssh://git@github.com/indutny/handle-thing.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "hash.js",
+    "version": "1.1.7",
+    "location": "node_modules/hash.js",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git@github.com:indutny/hash.js",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "hmac-drbg",
+    "version": "1.0.1",
+    "location": "node_modules/hmac-drbg",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+ssh://git@github.com/indutny/hmac-drbg.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "hpack.js",
+    "version": "2.1.6",
+    "location": "node_modules/hpack.js",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+ssh://git@github.com/indutny/hpack.js.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "http-cache-semantics",
+    "version": "3.8.1",
+    "location": "node_modules/http-cache-semantics",
+    "license": "BSD-2-Clause",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/pornel/http-cache-semantics.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "http-deceiver",
+    "version": "1.2.7",
+    "location": "node_modules/http-deceiver",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+ssh://git@github.com/indutny/http-deceiver.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "imports-loader",
+    "version": "0.6.5",
+    "location": "node_modules/imports-loader",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/webpack/imports-loader.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "source-map",
+    "version": "0.1.43",
+    "location": "node_modules/imports-loader/node_modules/source-map",
+    "license": [
+      {
+        "type": "BSD",
+        "url": "http://opensource.org/licenses/BSD-3-Clause"
+      }
+    ],
+    "developmentOnly": false,
+    "optional": false,
+    "source": "http://github.com/mozilla/source-map.git",
+    "licenseFiles": [
+      "LICENSE"
+    ],
+    "licenseTextSource": "node_modules/imports-loader/node_modules/source-map",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "imurmurhash",
+    "version": "0.1.4",
+    "location": "node_modules/imurmurhash",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/jensyt/imurmurhash-js",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "invert-kv",
+    "version": "1.0.0",
+    "location": "node_modules/invert-kv",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "sindresorhus/invert-kv",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "saxes",
+    "version": "6.0.0",
+    "location": "node_modules/isomorphic-dompurify/node_modules/saxes",
+    "license": "ISC",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/lddubeau/saxes.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "java-properties",
+    "version": "1.0.2",
+    "location": "node_modules/java-properties",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/mattdsteele/java-properties.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest",
+    "version": "21.2.1",
+    "location": "node_modules/jest",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-changed-files",
+    "version": "21.2.0",
+    "location": "node_modules/jest-changed-files",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-cli",
+    "version": "21.2.1",
+    "location": "node_modules/jest-cli",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "slash",
+    "version": "1.0.0",
+    "location": "node_modules/jest-cli/node_modules/slash",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "sindresorhus/slash",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-config",
+    "version": "21.2.1",
+    "location": "node_modules/jest-config",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-diff",
+    "version": "21.2.1",
+    "location": "node_modules/jest-diff",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-docblock",
+    "version": "21.2.0",
+    "location": "node_modules/jest-docblock",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-environment-jsdom",
+    "version": "21.2.1",
+    "location": "node_modules/jest-environment-jsdom",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "cssstyle",
+    "version": "0.2.37",
+    "location": "node_modules/jest-environment-jsdom/node_modules/cssstyle",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "chad3814/CSSStyleDeclaration",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "parse5",
+    "version": "1.5.1",
+    "location": "node_modules/jest-environment-jsdom/node_modules/parse5",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "https://raw.github.com/inikulin/parse5/master/LICENSE"
+      }
+    ],
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/inikulin/parse5.git",
+    "licenseFiles": [
+      "LICENSE"
+    ],
+    "licenseTextSource": "node_modules/jest-environment-jsdom/node_modules/parse5",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "tr46",
+    "version": "0.0.3",
+    "location": "node_modules/jest-environment-jsdom/node_modules/tr46",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/Sebmaster/tr46.js.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-environment-node",
+    "version": "21.2.1",
+    "location": "node_modules/jest-environment-node",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-get-type",
+    "version": "21.2.0",
+    "location": "node_modules/jest-get-type",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-haste-map",
+    "version": "21.2.0",
+    "location": "node_modules/jest-haste-map",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-jasmine2",
+    "version": "21.2.1",
+    "location": "node_modules/jest-jasmine2",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-matcher-utils",
+    "version": "21.2.1",
+    "location": "node_modules/jest-matcher-utils",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-message-util",
+    "version": "21.2.1",
+    "location": "node_modules/jest-message-util",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "slash",
+    "version": "1.0.0",
+    "location": "node_modules/jest-message-util/node_modules/slash",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "sindresorhus/slash",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-mock",
+    "version": "21.2.0",
+    "location": "node_modules/jest-mock",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-regex-util",
+    "version": "21.2.0",
+    "location": "node_modules/jest-regex-util",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-resolve",
+    "version": "21.2.0",
+    "location": "node_modules/jest-resolve",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-resolve-dependencies",
+    "version": "21.2.0",
+    "location": "node_modules/jest-resolve-dependencies",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-runner",
+    "version": "21.2.1",
+    "location": "node_modules/jest-runner",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-runtime",
+    "version": "21.2.1",
+    "location": "node_modules/jest-runtime",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-core",
+    "version": "6.26.3",
+    "location": "node_modules/jest-runtime/node_modules/babel-core",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-core",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "slash",
+    "version": "1.0.0",
+    "location": "node_modules/jest-runtime/node_modules/slash",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "sindresorhus/slash",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-snapshot",
+    "version": "21.2.1",
+    "location": "node_modules/jest-snapshot",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-util",
+    "version": "21.2.1",
+    "location": "node_modules/jest-util",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "jest-validate",
+    "version": "21.2.1",
+    "location": "node_modules/jest-validate",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "parse5",
+    "version": "5.1.0",
+    "location": "node_modules/jsdom/node_modules/parse5",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/inikulin/parse5.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "json",
+    "version": "9.0.6",
+    "location": "node_modules/json",
+    "license": "UNKNOWN",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/trentm/json.git",
+    "licenseFiles": [
+      "LICENSE.txt"
+    ],
+    "licenseTextSource": "node_modules/json",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "jsonify",
+    "version": "0.0.1",
+    "location": "node_modules/jsonify",
+    "license": "Public Domain",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/ljharb/jsonify.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "keyv",
+    "version": "4.5.4",
+    "location": "node_modules/keyv",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/jaredwray/keyv.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "magic-string",
+    "version": "0.22.5",
+    "location": "node_modules/magic-string",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://github.com/rich-harris/magic-string",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "markdown-it-anchor",
+    "version": "8.6.7",
+    "location": "node_modules/markdown-it-anchor",
+    "license": "Unlicense",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "valeriangalliat/markdown-it-anchor",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "math-random",
+    "version": "1.0.4",
+    "location": "node_modules/math-random",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "github:michaelrhodes/math-random",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "memory-fs",
+    "version": "0.2.0",
+    "location": "node_modules/memory-fs",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/webpack/memory-fs.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "microee",
+    "version": "0.0.6",
+    "location": "node_modules/microee",
+    "license": "BSD",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git://github.com/mixu/microee",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": "excluded-from-browser",
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "miller-rabin",
+    "version": "4.0.1",
+    "location": "node_modules/miller-rabin",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git@github.com:indutny/miller-rabin",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "min-document",
+    "version": "2.19.0",
+    "location": "node_modules/min-document",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "http://github.com/Raynos/min-document/raw/master/LICENSE"
+      }
+    ],
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git://github.com/Raynos/min-document.git",
+    "licenseFiles": [
+      "LICENCE"
+    ],
+    "licenseTextSource": "node_modules/min-document",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "minimalistic-crypto-utils",
+    "version": "1.0.1",
+    "location": "node_modules/minimalistic-crypto-utils",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+ssh://git@github.com/indutny/minimalistic-crypto-utils.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "multipipe",
+    "version": "0.3.1",
+    "location": "node_modules/multipipe",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "juliangruber/multipipe",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "natural-compare",
+    "version": "1.4.0",
+    "location": "node_modules/natural-compare",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/litejs/natural-compare-lite.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "nerf-dart",
+    "version": "1.0.0",
+    "location": "node_modules/nerf-dart",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/boennemann/nerf-dart.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "tr46",
+    "version": "0.0.3",
+    "location": "node_modules/node-fetch/node_modules/tr46",
+    "license": "MIT",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git+https://github.com/Sebmaster/tr46.js.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "@npmcli/agent",
+    "version": "3.0.0",
+    "location": "node_modules/npm/node_modules/@npmcli/agent",
+    "license": "ISC",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/npm/agent.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "eastasianwidth",
+    "version": "0.2.0",
+    "location": "node_modules/npm/node_modules/eastasianwidth",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/komagata/eastasianwidth.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "err-code",
+    "version": "2.0.3",
+    "location": "node_modules/npm/node_modules/err-code",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/IndigoUnited/js-err-code.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "imurmurhash",
+    "version": "0.1.4",
+    "location": "node_modules/npm/node_modules/imurmurhash",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/jensyt/imurmurhash-js",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "is-cidr",
+    "version": "5.1.0",
+    "location": "node_modules/npm/node_modules/is-cidr",
+    "license": "BSD-2-Clause",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "silverwind/is-cidr",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "qrcode-terminal",
+    "version": "0.12.0",
+    "location": "node_modules/npm/node_modules/qrcode-terminal",
+    "license": [
+      {
+        "type": "Apache 2.0"
+      }
+    ],
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/gtanner/qrcode-terminal",
+    "licenseFiles": [
+      "LICENSE"
+    ],
+    "licenseTextSource": "node_modules/npm/node_modules/qrcode-terminal",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "@sigstore/verify",
+    "version": "2.0.0",
+    "location": "node_modules/npm/node_modules/sigstore/node_modules/@sigstore/verify",
+    "license": "Apache-2.0",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/sigstore/sigstore-js.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "spdx-exceptions",
+    "version": "2.5.0",
+    "location": "node_modules/npm/node_modules/spdx-exceptions",
+    "license": "CC-BY-3.0",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "kemitchell/spdx-exceptions.json",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "spdx-license-ids",
+    "version": "3.0.20",
+    "location": "node_modules/npm/node_modules/spdx-license-ids",
+    "license": "CC0-1.0",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "jslicense/spdx-license-ids",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "pn",
+    "version": "1.1.0",
+    "location": "node_modules/pn",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/cscott/node-pn",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "pretty-format",
+    "version": "21.2.1",
+    "location": "node_modules/pretty-format",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/jest.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "querystring-es3",
+    "version": "0.2.1",
+    "location": "node_modules/querystring-es3",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "https://github.com/Gozala/enchain/License.md"
+      }
+    ],
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/mike-spainhower/querystring.git",
+    "licenseFiles": [
+      "License.md"
+    ],
+    "licenseTextSource": "node_modules/querystring-es3",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "railroad-diagrams",
+    "version": "1.0.0",
+    "location": "node_modules/railroad-diagrams",
+    "license": "CC0-1.0",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/tabatkins/railroad-diagrams.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "sane",
+    "version": "2.5.2",
+    "location": "node_modules/sane",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/amasad/sane",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "@transifex/api",
+    "version": "4.3.0",
+    "location": "node_modules/scratch-blocks/node_modules/@transifex/api",
+    "license": "Apache-2.0",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git://github.com/transifex/transifex-javascript.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "source-map",
+    "version": "0.5.0",
+    "location": "node_modules/scratch-blocks/node_modules/exports-loader/node_modules/source-map",
+    "license": "BSD-3-Clause",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "http://github.com/mozilla/source-map.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "raw-loader",
+    "version": "0.5.1",
+    "location": "node_modules/script-loader/node_modules/raw-loader",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+      }
+    ],
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git@github.com:webpack/raw-loader.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "review-license",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "select-hose",
+    "version": "2.0.0",
+    "location": "node_modules/select-hose",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+ssh://git@github.com/indutny/select-hose.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "spdx-exceptions",
+    "version": "2.5.0",
+    "location": "node_modules/spdx-exceptions",
+    "license": "CC-BY-3.0",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "kemitchell/spdx-exceptions.json",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "spdx-license-ids",
+    "version": "3.0.21",
+    "location": "node_modules/spdx-license-ids",
+    "license": "CC0-1.0",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "jslicense/spdx-license-ids",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "spdy",
+    "version": "4.0.2",
+    "location": "node_modules/spdy",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/indutny/node-spdy.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "spdy-transport",
+    "version": "3.0.0",
+    "location": "node_modules/spdy-transport",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/spdy-http2/spdy-transport.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "prelude-ls",
+    "version": "1.1.2",
+    "location": "node_modules/static-module/node_modules/prelude-ls",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "https://raw.github.com/gkz/prelude-ls/master/LICENSE"
+      }
+    ],
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git://github.com/gkz/prelude-ls.git",
+    "licenseFiles": [
+      "LICENSE"
+    ],
+    "licenseTextSource": "node_modules/static-module/node_modules/prelude-ls",
+    "reviewDisposition": null,
+    "issues": [
+      "review-license"
+    ]
+  },
+  {
+    "name": "taffydb",
+    "version": "2.6.2",
+    "location": "node_modules/taffydb",
+    "license": "UNKNOWN",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/typicaljoe/taffydb.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "review-license",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "tap-yaml",
+    "version": "1.0.2",
+    "location": "node_modules/tap-yaml",
+    "license": "ISC",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/tapjs/tap-yaml.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "patch-console",
+    "version": "1.0.0",
+    "location": "node_modules/tap/node_modules/patch-console",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "vadimdemedes/patch-console",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "react-devtools-core",
+    "version": "4.28.5",
+    "location": "node_modules/tap/node_modules/react-devtools-core",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/facebook/react.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "tap-yaml",
+    "version": "1.0.2",
+    "location": "node_modules/tap/node_modules/tap-yaml",
+    "license": "ISC",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/tapjs/tap-yaml.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "tapable",
+    "version": "0.1.10",
+    "location": "node_modules/tapable",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "http://github.com/webpack/tapable.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "tcompare",
+    "version": "5.0.7",
+    "location": "node_modules/tcompare",
+    "license": "ISC",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git+https://github.com/tapjs/tcompare.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "w3c-xmlserializer",
+    "version": "1.1.2",
+    "location": "node_modules/w3c-xmlserializer",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "jsdom/w3c-xmlserializer",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "wbuf",
+    "version": "1.7.3",
+    "location": "node_modules/wbuf",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git@github.com:indutny/wbuf",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "web-audio-test-api",
+    "version": "0.5.2",
+    "location": "node_modules/web-audio-test-api",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "http://github.com/mohayonao/web-audio-test-api.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "raw-loader",
+    "version": "0.5.1",
+    "location": "packages/scratch-gui/node_modules/@scratch/scratch-render/node_modules/raw-loader",
+    "license": "UNKNOWN",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://registry.npmjs.org/raw-loader/-/raw-loader-0.5.1.tgz",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "not-installed",
+      "review-license",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "scratch-audio",
+    "version": "2.0.135",
+    "location": "packages/scratch-gui/node_modules/@scratch/scratch-vm/node_modules/scratch-audio",
+    "license": "AGPL-3.0-only",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://registry.npmjs.org/scratch-audio/-/scratch-audio-2.0.135.tgz",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "not-installed",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "scratch-storage",
+    "version": "4.0.106",
+    "location": "packages/scratch-gui/node_modules/@scratch/scratch-vm/node_modules/scratch-storage",
+    "license": "AGPL-3.0-only",
+    "developmentOnly": false,
+    "optional": false,
+    "source": "https://registry.npmjs.org/scratch-storage/-/scratch-storage-4.0.106.tgz",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "not-installed",
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "slash",
+    "version": "1.0.0",
+    "location": "packages/scratch-gui/node_modules/slash",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "sindresorhus/slash",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "babel-core",
+    "version": "6.26.3",
+    "location": "packages/scratch-gui/node_modules/ts-jest/node_modules/babel-core",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "https://github.com/babel/babel/tree/master/packages/babel-core",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "gh-pages",
+    "version": "1.2.0",
+    "location": "packages/scratch-render/node_modules/gh-pages",
+    "license": "MIT",
+    "developmentOnly": true,
+    "optional": false,
+    "source": "git://github.com/tschaub/gh-pages.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "no-root-license-text"
+    ]
+  },
+  {
+    "name": "raw-loader",
+    "version": "0.5.1",
+    "location": "packages/scratch-render/node_modules/raw-loader",
+    "license": [
+      {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+      }
+    ],
+    "developmentOnly": false,
+    "optional": false,
+    "source": "git@github.com:webpack/raw-loader.git",
+    "licenseFiles": [],
+    "licenseTextSource": null,
+    "reviewDisposition": null,
+    "issues": [
+      "review-license",
+      "no-root-license-text"
+    ]
+  }
+]

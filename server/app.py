@@ -1,3 +1,4 @@
+# S-LLM modification: public consent, privacy and source integration; 2026-10-29.
 import os
 import uuid
 import json
@@ -24,7 +25,22 @@ load_dotenv()
 # args = parser.parse_args()
 
 app = Flask(__name__, static_folder=None)
-CORS(app)
+app.config["PUBLIC_RELEASE"] = os.environ.get("SLLM_PUBLIC_RELEASE") == "1"
+if not app.config["PUBLIC_RELEASE"]:
+    CORS(app)
+
+
+@app.before_request
+def enforce_public_access():
+    """Public builds use self-declared age/guardian consent and have no admin UI."""
+    if not app.config["PUBLIC_RELEASE"]:
+        return None
+    if request.path == '/admin' or request.path.startswith(('/api/admin/', '/api/events/')):
+        return jsonify({'error': 'Not found'}), 404
+    if request.path in ('/api/llm', '/api/plan-assets', '/api/plan-sprites', '/api/repair-scratch'):
+        if request.headers.get('X-SLLM-Consent') != '2026-10-29':
+            return jsonify({'error': '利用条件を確認し、年齢要件と同意のチェックを完了してください。'}), 403
+    return None
 
 
 def env_flag(name, default=True):
@@ -1267,9 +1283,9 @@ def call_openai_async(request_id: str, messages: list, model: str):
     try:
         api_key = os.environ.get('OPENAI_API_KEY')
         from openai import OpenAI
-        client = OpenAI(api_key=api_key)
+        client = OpenAI(api_key=api_key, **({'base_url': 'https://api.openai.com/v1'} if app.config['PUBLIC_RELEASE'] else {}))
 
-        response = client.chat.completions.create(model=model, messages=messages)
+        response = client.chat.completions.create(model=model, messages=messages, store=False)
         response_content = response.choices[0].message.content
 
         # 出力モデレーション
@@ -1300,11 +1316,11 @@ def call_openai_async(request_id: str, messages: list, model: str):
         })
 
     except Exception as e:
-        print(f"Background OpenAI error for {request_id}: {e}")
+        app.logger.warning("Background OpenAI error for {request_id}: %s", type(e).__name__)
         with pending_lock:
             entry = pending_responses.pop(request_id, None)
         if entry:
-            msg = f"event: rejected\ndata: {json.dumps({'reason': f'AIとの通信でエラーが発生しました: {str(e)}'}, ensure_ascii=False)}\n\n"
+            msg = f"event: rejected\ndata: {json.dumps({'reason': 'AIとの通信でエラーが発生しました。時間をおいて再度お試しください。'}, ensure_ascii=False)}\n\n"
             entry['student_queue'].put_nowait(msg)
             notify_admin('removed', {'id': request_id})
 
@@ -1343,7 +1359,7 @@ def repair_scratch():
             return jsonify({'error': 'OpenAI API key is not set.'}), 500
 
         from openai import OpenAI
-        client = OpenAI(api_key=api_key)
+        client = OpenAI(api_key=api_key, **({'base_url': 'https://api.openai.com/v1'} if app.config['PUBLIC_RELEASE'] else {}))
         prompt = f"""次のScratchBlocksプログラムには、コンパイラが認識できない構文があります。
 機能、ターゲット、行順、数値、文字列、変数名、リスト名、素材名を変更せず、構文だけを修正してください。
 未知行を削除したり、新しい処理を追加したりしないでください。
@@ -1358,7 +1374,12 @@ def repair_scratch():
 
 プログラム:
 {code}"""
+        if app.config['PUBLIC_RELEASE']:
+            result = client.moderations.create(input=prompt)
+            if result.results[0].flagged:
+                return jsonify({'error': 'この内容のAI処理は利用条件により制限されています。', 'flagged': True}), 400
         response = client.chat.completions.create(
+            store=False,
             model=SYNTAX_REPAIR_MODEL,
             messages=[
                 {
@@ -1371,6 +1392,10 @@ def repair_scratch():
         repaired_code = normalize_scratch_key_names(
             (response.choices[0].message.content or '').strip()
         )
+        if app.config['PUBLIC_RELEASE'] and repaired_code:
+            result = client.moderations.create(input=repaired_code)
+            if result.results[0].flagged:
+                return jsonify({'error': 'AIの生成内容を安全性確認により制限しました。', 'flagged': True}), 500
         return jsonify({
             'enabled': True,
             'repaired': bool(repaired_code and repaired_code != original_code),
@@ -1379,8 +1404,8 @@ def repair_scratch():
     except BadRequest as e:
         return jsonify({'error': e.description}), 400
     except Exception as e:
-        print(f"Error repairing ScratchBlocks syntax: {e}")
-        return jsonify({'error': str(e)}), 500
+        app.logger.warning("Error repairing ScratchBlocks syntax: %s", type(e).__name__)
+        return jsonify({'error': 'AIとの通信に失敗しました。時間をおいて再度お試しください。'}), 500
 
 
 # ─────────────────────────────────────────────
@@ -1461,19 +1486,24 @@ def plan_sprites():
             return jsonify({'error': 'OpenAI API key is not set.'}), 500
 
         from openai import OpenAI
-        client = OpenAI(api_key=api_key)
-        moderation = client.moderations.create(input=data['userInput'])
+        client = OpenAI(api_key=api_key, **({'base_url': 'https://api.openai.com/v1'} if app.config['PUBLIC_RELEASE'] else {}))
+        moderation = client.moderations.create(input=json.dumps(messages, ensure_ascii=False))
         if moderation.results[0].flagged:
             return jsonify({
                 'error': 'This content violates our safety policies.',
                 'flagged': True
             }), 400
         response = client.chat.completions.create(
+            store=False,
             model=ASSET_PLANNING_MODEL,
             messages=messages,
             response_format={'type': 'json_object'}
         )
         content = response.choices[0].message.content
+        if app.config['PUBLIC_RELEASE'] and content:
+            result = client.moderations.create(input=content)
+            if result.results[0].flagged:
+                return jsonify({'error': 'AIの生成内容を安全性確認により制限しました。', 'flagged': True}), 500
         catalog = sanitize_optional_sprite_catalog(data.get('spriteCatalog'))
         backdrop_catalog = sanitize_optional_backdrop_catalog(data.get('backdropCatalog'))
         costume_catalog = sanitize_named_asset_catalog(data.get('costumeCatalog'), 'costumeCatalog')
@@ -1517,10 +1547,10 @@ def plan_sprites():
         return jsonify({'error': e.description}), 400
     except Exception as e:
         if is_rate_limit_error(e):
-            print(f"Rate limited while planning assets: {e}")
+            app.logger.warning("Rate limited while planning assets: %s", type(e).__name__)
             return rate_limit_response()
-        print(f"Error planning assets: {e}")
-        return jsonify({'error': str(e)}), 500
+        app.logger.warning("Error planning assets: %s", type(e).__name__)
+        return jsonify({'error': 'AIとの通信に失敗しました。時間をおいて再度お試しください。'}), 500
 
 
 # ─────────────────────────────────────────────
@@ -1548,9 +1578,9 @@ def llm_proxy():
 
         # 入力モデレーション
         from openai import OpenAI
-        client = OpenAI(api_key=api_key)
+        client = OpenAI(api_key=api_key, **({'base_url': 'https://api.openai.com/v1'} if app.config['PUBLIC_RELEASE'] else {}))
         if user_input_display:
-            mod_res = client.moderations.create(input=user_input_display)
+            mod_res = client.moderations.create(input=json.dumps(messages, ensure_ascii=False))
             output = mod_res.results[0]
             if output.flagged:
                 return jsonify({
@@ -1594,7 +1624,7 @@ def llm_proxy():
         #     return jsonify({"pending": True, "request_id": request_id})
 
         # 通常モード: 同期で処理
-        response = client.chat.completions.create(model=model, messages=messages)
+        response = client.chat.completions.create(model=model, messages=messages, store=False)
         response_content = response.choices[0].message.content
 
         if response_content:
@@ -1612,14 +1642,14 @@ def llm_proxy():
         return jsonify({"error": e.description}), 400
     except Exception as e:
         if is_rate_limit_error(e):
-            print(f"Rate limited in llm_proxy: {e}")
+            app.logger.warning("Rate limited in llm_proxy: %s", type(e).__name__)
             return rate_limit_response()
-        print(f"Error in llm_proxy: {e}")
-        return jsonify({"error": str(e)}), 500
+        app.logger.warning("Error in llm_proxy: %s", type(e).__name__)
+        return jsonify({"error": "AIとの通信に失敗しました。時間をおいて再度お試しください。"}), 500
 
 
 if __name__ == '__main__':
     mode_str = "ON" if app_state['approval_mode'] else "OFF"
     # print(f"[Server] 承認モード: {mode_str}  (--no-approval で起動時OFF)")
     print(f"[Server] 承認モード: {mode_str}")
-    app.run(port=3001, debug=True, threaded=True)
+    app.run(port=int(os.environ.get('PORT', '3001')), debug=not app.config['PUBLIC_RELEASE'], threaded=True)

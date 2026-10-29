@@ -1,0 +1,31 @@
+{
+  "scope": "Only the six unmodified font files shipped by S-LLM; not approval of the full npm archive. Scratch.ttf must be excluded from bundles and source offers.",
+  "upstreamIssue": "https://github.com/scratchfoundation/scratch-render-fonts/issues/23",
+  "fallback": "Legacy Scratch family uses the existing Noto Sans bytes; other families unchanged.",
+  "fonts": {
+    "src/Grand9K-Pixel.ttf": {
+      "license": "CC-BY-SA-3.0",
+      "sha256": "1456c09625c93e8461c8319e1f3c342ca7fdcad2345cc036ca7f35e9de4f3031"
+    },
+    "src/Griffy-Regular.ttf": {
+      "license": "OFL-1.1",
+      "sha256": "c889c3f8d169631386a297eae8b5bdefbf8d06aa9f4f325faec31b9b5f38eeb5"
+    },
+    "src/Knewave.ttf": {
+      "license": "OFL-1.1",
+      "sha256": "c946330c5735b693abc6ef280d9cfdb1f95d503a8ee55a21db0965cedcb2eaf9"
+    },
+    "src/NotoSans-Medium.ttf": {
+      "license": "OFL-1.1",
+      "sha256": "c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39"
+    },
+    "src/SourceSerifPro-Regular.otf": {
+      "license": "OFL-1.1",
+      "sha256": "22892edbfe310d39952b37c7ef1f1b9a1053a01b5ee528b81296eec23cb94c7d"
+    },
+    "src/handlee-regular.ttf": {
+      "license": "OFL-1.1",
+      "sha256": "7b99c0f291b5d52e06c66498a1d0dd6dff45a32e32d13be089c60d2d8dc00445"
+    }
+  }
+}

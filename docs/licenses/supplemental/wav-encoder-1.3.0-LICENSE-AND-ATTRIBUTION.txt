@@ -1,0 +1,82 @@
+Package: wav-encoder@1.3.0
+Author (package metadata): "Nao Yonamine <mohayonao@gmail.com>"
+License declaration: "MIT"
+Metadata: https://registry.npmjs.org/wav-encoder/1.3.0
+
+Published README (retained verbatim):
+# wav-encoder
+[![Build Status](https://img.shields.io/travis/mohayonao/wav-encoder.svg?style=flat-square)](https://travis-ci.org/mohayonao/wav-encoder)
+[![NPM Version](https://img.shields.io/npm/v/wav-encoder.svg?style=flat-square)](https://www.npmjs.org/package/wav-encoder)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://mohayonao.mit-license.org/)
+
+> promise-based wav encoder
+
+## Installation
+
+```
+$ npm install wav-encoder
+```
+
+## API
+
+- `encode(audioData: AudioData, [opts: object]): Promise<ArrayBuffer>`
+  - `audioData` should contain two fields `sampleRate` and `channelData`.
+  - `opts` is an optional parameter which used to design the output wav format.
+    - `opts.bitDepth` the number of bits of information in each sample
+    - `opts.float` encode to float values
+    - `opts.symmetric` encode to symmetrical values (see [#10](https://github.com/mohayonao/wav-encoder/issues/10))
+    - The default format is `{ float: false, bitDepth: 16 }`
+- `encode.sync(audioData: AudioData, [opts: object]): ArrayBuffer`
+  - synchronous version
+
+```js
+interface AudioData {
+  sampleRate: number;
+  channelData: Float32Array[];
+}
+```
+
+## Usage
+
+```js
+const fs = require("fs");
+const WavEncoder = require("wav-encoder");
+
+const whiteNoise1sec = {
+  sampleRate: 44100,
+  channelData: [
+    new Float32Array(44100).map(() => Math.random() - 0.5),
+    new Float32Array(44100).map(() => Math.random() - 0.5)
+  ]
+};
+
+WavEncoder.encode(whiteNoise1sec).then((buffer) => {
+  fs.writeFileSync("noise.wav", new Buffer(buffer));
+});
+```
+
+## License
+MIT
+
+
+Full standard license terms:
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+

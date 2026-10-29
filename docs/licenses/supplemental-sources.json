@@ -1,0 +1,252 @@
+[
+  {
+    "name": "omggif",
+    "version": "1.0.10",
+    "metadataUrl": "https://registry.npmjs.org/omggif/1.0.10",
+    "commit": "334a0c0b6aa2eb5e63fae64ba7911ee647655ab2",
+    "repository": "deanm/omggif",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/deanm/omggif/git/trees/334a0c0b6aa2eb5e63fae64ba7911ee647655ab2?recursive=1"
+  },
+  {
+    "name": "linebreak",
+    "version": "0.3.0",
+    "metadataUrl": "https://registry.npmjs.org/linebreak/0.3.0",
+    "commit": "33faa05d16082ef47873fbf5ca8bbb15782d668d",
+    "repository": "devongovett/linebreaker",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/devongovett/linebreaker/git/trees/33faa05d16082ef47873fbf5ca8bbb15782d668d?recursive=1"
+  },
+  {
+    "name": "scratch-render-fonts",
+    "version": "1.0.197",
+    "metadataUrl": "https://registry.npmjs.org/scratch-render-fonts/1.0.197",
+    "commit": "e780abda1deddf977911fc2316de94ee8c9ab574",
+    "repository": "scratchfoundation/scratch-render-fonts",
+    "files": [
+      {
+        "path": "docs/licenses/supplemental/scratch-render-fonts-1.0.197-LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/scratchfoundation/scratch-render-fonts/e780abda1deddf977911fc2316de94ee8c9ab574/LICENSE.txt"
+      }
+    ],
+    "treeUrl": "https://api.github.com/repos/scratchfoundation/scratch-render-fonts/git/trees/e780abda1deddf977911fc2316de94ee8c9ab574?recursive=1"
+  },
+  {
+    "name": "keymirror",
+    "version": "0.1.1",
+    "metadataUrl": "https://registry.npmjs.org/keymirror/0.1.1",
+    "commit": "2dafae96f33088e3030804f1113543c3c6c130b7",
+    "repository": "STRML/keyMirror",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/STRML/keyMirror/git/trees/2dafae96f33088e3030804f1113543c3c6c130b7?recursive=1"
+  },
+  {
+    "name": "redux-throttle",
+    "version": "0.1.1",
+    "metadataUrl": "https://registry.npmjs.org/redux-throttle/0.1.1",
+    "commit": "e6499b2336e901b179b90f42df31e69e9f3eafa5",
+    "repository": "mathieudutour/redux-throttle",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/mathieudutour/redux-throttle/git/trees/e6499b2336e901b179b90f42df31e69e9f3eafa5?recursive=1"
+  },
+  {
+    "name": "get-user-media-promise",
+    "version": "1.1.4",
+    "metadataUrl": "https://registry.npmjs.org/get-user-media-promise/1.1.4",
+    "commit": "ae919548d6c62838bc9173ae67b5b4daa67b1492",
+    "repository": "nfriedly/get-user-media-promise",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/nfriedly/get-user-media-promise/git/trees/ae919548d6c62838bc9173ae67b5b4daa67b1492?recursive=1"
+  },
+  {
+    "name": "get-float-time-domain-data",
+    "version": "0.1.0",
+    "metadataUrl": "https://registry.npmjs.org/get-float-time-domain-data/0.1.0",
+    "commit": "0aad05326e8e0ce3cd550f1ccd5996af945031ba",
+    "repository": "mohayonao/get-float-time-domain-data",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/mohayonao/get-float-time-domain-data/git/trees/0aad05326e8e0ce3cd550f1ccd5996af945031ba?recursive=1"
+  },
+  {
+    "name": "wav-encoder",
+    "version": "1.3.0",
+    "metadataUrl": "https://registry.npmjs.org/wav-encoder/1.3.0",
+    "commit": "c67e7809d169106ed3a8e2611b0c368e79d202e0",
+    "repository": "mohayonao/wav-encoder",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/mohayonao/wav-encoder/git/trees/c67e7809d169106ed3a8e2611b0c368e79d202e0?recursive=1"
+  },
+  {
+    "name": "balance-text",
+    "version": "3.3.1",
+    "metadataUrl": "https://registry.npmjs.org/balance-text/3.3.1",
+    "commit": "0f0826f7a9933cdb478cacea99196e4b874bfd0d",
+    "repository": "adobe-webplatform/balance-text",
+    "files": [
+      {
+        "path": "docs/licenses/supplemental/balance-text-3.3.1-LICENSE",
+        "url": "https://raw.githubusercontent.com/adobe-webplatform/balance-text/0f0826f7a9933cdb478cacea99196e4b874bfd0d/LICENSE"
+      },
+      {
+        "path": "docs/licenses/supplemental/balance-text-3.3.1-NOTICE",
+        "url": "https://raw.githubusercontent.com/adobe-webplatform/balance-text/0f0826f7a9933cdb478cacea99196e4b874bfd0d/NOTICE"
+      }
+    ],
+    "treeUrl": "https://api.github.com/repos/adobe-webplatform/balance-text/git/trees/0f0826f7a9933cdb478cacea99196e4b874bfd0d?recursive=1"
+  },
+  {
+    "name": "microee",
+    "status": "no-git-head"
+  },
+  {
+    "name": "color-convert",
+    "version": "0.5.3",
+    "metadataUrl": "https://registry.npmjs.org/color-convert/0.5.3",
+    "commit": "c05e34eb75de749faf15f0e362147a6add373625",
+    "repository": "harthur/color-convert",
+    "files": [
+      {
+        "path": "docs/licenses/supplemental/color-convert-0.5.3-LICENSE",
+        "url": "https://raw.githubusercontent.com/harthur/color-convert/c05e34eb75de749faf15f0e362147a6add373625/LICENSE"
+      }
+    ],
+    "treeUrl": "https://api.github.com/repos/harthur/color-convert/git/trees/c05e34eb75de749faf15f0e362147a6add373625?recursive=1"
+  },
+  {
+    "name": "audio-context",
+    "version": "1.0.3",
+    "metadataUrl": "https://registry.npmjs.org/audio-context/1.0.3",
+    "commit": "09b83d885433b6b2a6c4defdc2aabc7ab380c188",
+    "repository": "audiojs/audio-context",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/audiojs/audio-context/git/trees/09b83d885433b6b2a6c4defdc2aabc7ab380c188?recursive=1"
+  },
+  {
+    "name": "lookup-closest-locale",
+    "status": "no-git-head"
+  },
+  {
+    "name": "isarray",
+    "version": "1.0.0",
+    "metadataUrl": "https://registry.npmjs.org/isarray/1.0.0",
+    "commit": "2a23a281f369e9ae06394c0fb4d2381355a6ba33",
+    "repository": "juliangruber/isarray",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/juliangruber/isarray/git/trees/2a23a281f369e9ae06394c0fb4d2381355a6ba33?recursive=1"
+  },
+  {
+    "name": "format-message",
+    "version": "6.2.4",
+    "metadataUrl": "https://registry.npmjs.org/format-message/6.2.4",
+    "commit": "ece4dfacbec6af56e98897a3acbf0c99c64c2ed2",
+    "repository": "format-message/format-message",
+    "files": [
+      {
+        "path": "docs/licenses/supplemental/format-message-6.2.4-LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/format-message/format-message/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2/LICENSE-MIT"
+      }
+    ],
+    "treeUrl": "https://api.github.com/repos/format-message/format-message/git/trees/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2?recursive=1"
+  },
+  {
+    "name": "format-message-interpret",
+    "version": "6.2.4",
+    "metadataUrl": "https://registry.npmjs.org/format-message-interpret/6.2.4",
+    "commit": "ece4dfacbec6af56e98897a3acbf0c99c64c2ed2",
+    "repository": "format-message/format-message",
+    "files": [
+      {
+        "path": "docs/licenses/supplemental/format-message-interpret-6.2.4-LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/format-message/format-message/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2/LICENSE-MIT"
+      }
+    ],
+    "treeUrl": "https://api.github.com/repos/format-message/format-message/git/trees/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2?recursive=1"
+  },
+  {
+    "name": "grapheme-breaker",
+    "version": "0.3.2",
+    "metadataUrl": "https://registry.npmjs.org/grapheme-breaker/0.3.2",
+    "commit": "5aeb64c01fef20c6338302b42189e7898fe8e4d3",
+    "repository": "devongovett/grapheme-breaker",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/devongovett/grapheme-breaker/git/trees/5aeb64c01fef20c6338302b42189e7898fe8e4d3?recursive=1"
+  },
+  {
+    "name": "is-in-browser",
+    "version": "1.1.3",
+    "metadataUrl": "https://registry.npmjs.org/is-in-browser/1.1.3",
+    "commit": "653d0586c8d40db93262536ec60a4d2d50f3d78d",
+    "repository": "tuxsudo/is-in-browser",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/tuxsudo/is-in-browser/git/trees/653d0586c8d40db93262536ec60a4d2d50f3d78d?recursive=1"
+  },
+  {
+    "name": "format-message-formats",
+    "version": "6.2.4",
+    "metadataUrl": "https://registry.npmjs.org/format-message-formats/6.2.4",
+    "commit": "ece4dfacbec6af56e98897a3acbf0c99c64c2ed2",
+    "repository": "format-message/format-message",
+    "files": [
+      {
+        "path": "docs/licenses/supplemental/format-message-formats-6.2.4-LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/format-message/format-message/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2/LICENSE-MIT"
+      }
+    ],
+    "treeUrl": "https://api.github.com/repos/format-message/format-message/git/trees/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2?recursive=1"
+  },
+  {
+    "name": "unicode-trie",
+    "version": "0.3.1",
+    "metadataUrl": "https://registry.npmjs.org/unicode-trie/0.3.1",
+    "commit": "0e19655c9c291c133e577bcacd2c25b7c82455f7",
+    "repository": "devongovett/unicode-trie",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/devongovett/unicode-trie/git/trees/0e19655c9c291c133e577bcacd2c25b7c82455f7?recursive=1"
+  },
+  {
+    "name": "react-popover",
+    "version": "0.5.10",
+    "metadataUrl": "https://registry.npmjs.org/react-popover/0.5.10",
+    "commit": "905e7545e32806abf8ee38f4557621e9bc5b1c1a",
+    "repository": "littlebits/react-popover",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/littlebits/react-popover/git/trees/905e7545e32806abf8ee38f4557621e9bc5b1c1a?recursive=1"
+  },
+  {
+    "name": "to-style",
+    "version": "1.3.3",
+    "metadataUrl": "https://registry.npmjs.org/to-style/1.3.3",
+    "commit": "43e38cfbfb361091f916666954a501669997da15",
+    "repository": "radubrehar/toStyle",
+    "files": [],
+    "treeUrl": "https://api.github.com/repos/radubrehar/toStyle/git/trees/43e38cfbfb361091f916666954a501669997da15?recursive=1"
+  },
+  {
+    "name": "domutils",
+    "version": "1.5.1",
+    "metadataUrl": "https://registry.npmjs.org/domutils/1.5.1",
+    "commit": "7d4bd16cd36ffce62362ef91616806ea27e30d95",
+    "repository": "FB55/domutils",
+    "files": [
+      {
+        "path": "docs/licenses/supplemental/domutils-1.5.1-LICENSE",
+        "url": "https://raw.githubusercontent.com/FB55/domutils/7d4bd16cd36ffce62362ef91616806ea27e30d95/LICENSE"
+      }
+    ],
+    "treeUrl": "https://api.github.com/repos/FB55/domutils/git/trees/7d4bd16cd36ffce62362ef91616806ea27e30d95?recursive=1"
+  },
+  {
+    "name": "format-message-parse",
+    "version": "6.2.4",
+    "metadataUrl": "https://registry.npmjs.org/format-message-parse/6.2.4",
+    "commit": "ece4dfacbec6af56e98897a3acbf0c99c64c2ed2",
+    "repository": "format-message/format-message",
+    "files": [
+      {
+        "path": "docs/licenses/supplemental/format-message-parse-6.2.4-LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/format-message/format-message/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2/LICENSE-MIT"
+      }
+    ],
+    "treeUrl": "https://api.github.com/repos/format-message/format-message/git/trees/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2?recursive=1"
+  }
+]

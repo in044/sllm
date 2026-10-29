@@ -1,3 +1,4 @@
+/* S-LLM modification: public license, source and consent integration; 2026-10-29. */
 const path = require('path');
 const webpack = require('webpack');
 const dotenv = require('dotenv');
@@ -8,6 +9,28 @@ dotenv.config({ path: path.resolve(__dirname, '.env') });
 // Plugins
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const {execFileSync} = require('child_process');
+const publicRelease = process.env.SLLM_PUBLIC_RELEASE === '1';
+
+// A clean build links to its exact source. Working copies are labelled explicitly.
+const sourceRepository = 'https://github.com/in044/sllm';
+let sourceUrl = sourceRepository;
+let sourceVersion = '開発版';
+try {
+    const gitOptions = {cwd: path.resolve(__dirname, '../..'), encoding: 'utf8'};
+    const revision = execFileSync('git', ['rev-parse', 'HEAD'], gitOptions).trim();
+    const changes = execFileSync('git', ['status', '--porcelain', '--untracked-files=normal'], gitOptions).trim();
+    sourceVersion = changes ? `${revision}（開発中の変更を含む）` : revision;
+    if (!changes) sourceUrl = `${sourceRepository}/tree/${revision}`;
+} catch (_) {
+    // Source archives without .git retain the repository link and development label.
+}
+const sourceDirectory = process.env.SLLM_SOURCE_DIR;
+if (publicRelease && sourceDirectory) {
+    const sourceInfo = require(path.resolve(sourceDirectory, 'source-info.json'));
+    sourceUrl = 'source/sllm-source.tar.gz';
+    sourceVersion = `ソース一式 SHA-256: ${sourceInfo.sourceTreeSha256}`;
+}
 
 const ScratchWebpackConfigBuilder = require('scratch-webpack-configuration');
 
@@ -16,7 +39,7 @@ const ScratchWebpackConfigBuilder = require('scratch-webpack-configuration');
 const commonHtmlWebpackPluginOptions = {
     // Google Tag Manager ID
     // Looks like 'GTM-XXXXXXX'
-    gtm_id: process.env.GTM_ID || '',
+    gtm_id: publicRelease ? '' : (process.env.GTM_ID || ''),
 
     // Google Tag Manager env & auth info for alterative GTM environments
     // Looks like '&gtm_auth=0123456789abcdefghijklm&gtm_preview=env-00&gtm_cookies_win=x'
@@ -33,6 +56,43 @@ const baseConfig = new ScratchWebpackConfigBuilder(
         shouldSplitChunks: false
     })
     .setTarget('browserslist')
+    .addPlugin(new HtmlWebpackPlugin({
+        filename: 'credits.html',
+        template: 'src/playground/credits.ejs',
+        inject: false,
+        sourceUrl,
+        sourceVersion
+    }))
+    .addPlugin(new HtmlWebpackPlugin({
+        filename: 'terms.html',
+        template: 'src/playground/policy.ejs',
+        inject: false,
+        policyTitle: '利用規約',
+        policyContent: require('fs').readFileSync(path.resolve(__dirname, 'src/playground/terms.html'), 'utf8')
+    }))
+    .addPlugin(new HtmlWebpackPlugin({
+        filename: 'privacy.html',
+        template: 'src/playground/policy.ejs',
+        inject: false,
+        policyTitle: 'プライバシー・外部送信',
+        policyContent: require('fs').readFileSync(path.resolve(__dirname, 'src/playground/privacy.html'), 'utf8')
+    }))
+    .addPlugin(new CopyWebpackPlugin({
+        patterns: [
+            ...['LICENSE', 'NOTICE', 'TRADEMARK'].map(name => ({
+                from: path.resolve(__dirname, '../..', name),
+                to: `legal/${name}.txt`
+            })),
+            ...['THIRD_PARTY_NOTICES.txt', 'PYTHON_THIRD_PARTY_NOTICES.txt', 'FONT_NOTICES.txt', 'ASSET_NOTICES.md'].map(name => ({
+                from: path.resolve(__dirname, '../..', name),
+                to: name === 'ASSET_NOTICES.md' ? 'legal/ASSET_NOTICES.txt' : `legal/${name}`
+            })),
+            ...['scratch-gui', 'scratch-vm', 'scratch-render', 'scratch-svg-renderer'].map(name => ({
+                from: path.resolve(__dirname, '..', name, 'NOTICE'),
+                to: `legal/package-notices/${name}.txt`
+            }))
+        ]
+    }))
     .merge({
         output: {
             assetModuleFilename: 'static/assets/[name].[hash][ext][query]',
@@ -58,10 +118,12 @@ const baseConfig = new ScratchWebpackConfigBuilder(
     })
     .addPlugin(new webpack.DefinePlugin({
         'process.env.DEBUG': Boolean(process.env.DEBUG),
+        'process.env.SLLM_PUBLIC_RELEASE': JSON.stringify(publicRelease),
+        'process.env.SLLM_SOURCE_URL': JSON.stringify(sourceUrl),
         'process.env.GA_ID': `"${process.env.GA_ID || 'UA-000000-01'}"`,
         'process.env.GTM_ENV_AUTH': `"${process.env.GTM_ENV_AUTH || ''}"`,
         'process.env.GTM_ID': process.env.GTM_ID ? `"${process.env.GTM_ID}"` : null,
-        'process.env.REACT_APP_API_BASE_URL': `"${process.env.REACT_APP_API_BASE_URL || ''}"`,
+        'process.env.REACT_APP_API_BASE_URL': JSON.stringify(publicRelease ? '' : (process.env.REACT_APP_API_BASE_URL || '')),
         'process.env.REACT_APP_AUTO_SPRITE_ADD_ENABLED':
             `"${process.env.REACT_APP_AUTO_SPRITE_ADD_ENABLED || ''}"`,
         'process.env.REACT_APP_AUTO_COSTUME_ADD_ENABLED':
@@ -79,6 +141,21 @@ const baseConfig = new ScratchWebpackConfigBuilder(
         'process.env.REACT_APP_AUTO_BACKDROP_ADD_ENABLED':
             `"${process.env.REACT_APP_AUTO_BACKDROP_ADD_ENABLED || ''}"`
     }))
+    .addPlugin(new webpack.NormalModuleReplacementPlugin(
+        /(?:^|[!\\/])Scratch\.ttf$/,
+        resource => {
+            // S-LLM 2026-10-29: preserve the six editor fonts, but do not
+            // redistribute the legacy font (scratch-render-fonts issue #23).
+            // The existing "Scratch" family becomes an alias of Sans Serif.
+            if (path.resolve(resource.context) === path.dirname(require.resolve('scratch-render-fonts'))) {
+                resource.request = resource.request.replace(/Scratch\.ttf$/, 'NotoSans-Medium.ttf');
+            }
+        }
+    ))
+    .addPlugin(new webpack.NormalModuleReplacementPlugin(
+        /^microee$/,
+        path.resolve(__dirname, 'src/lib/log-events.js')
+    ))
     .addPlugin(new webpack.NormalModuleReplacementPlugin(
         /scratch-audio[\\/]src[\\/]StartAudioContext\.js$/,
         path.resolve(__dirname, 'src/lib/audio/deferred-start-audio-context.js')
@@ -112,6 +189,15 @@ const baseConfig = new ScratchWebpackConfigBuilder(
             }
         ]
     }));
+
+if (publicRelease) {
+    if (sourceDirectory) {
+        baseConfig.addPlugin(new CopyWebpackPlugin({patterns: [
+            {from: path.resolve(sourceDirectory, 'sllm-source.tar.gz'), to: 'source/sllm-source.tar.gz'},
+            {from: path.resolve(sourceDirectory, 'source-info.json'), to: 'source/source-info.json'}
+        ]}));
+    }
+}
 
 if (!process.env.CI) {
     baseConfig.addPlugin(new webpack.ProgressPlugin());
@@ -163,6 +249,11 @@ const buildConfig = baseConfig.clone()
         devServer: {
             server: 'http',
             proxy: [
+                ...(publicRelease ? [{
+                    context: ['/api'],
+                    target: 'http://127.0.0.1:3001',
+                    changeOrigin: true
+                }] : []),
                 {
                     context: ['/cdn-assets'],
                     target: 'https://cdn.assets.scratch.mit.edu',
@@ -253,3 +344,7 @@ switch (process.env.BUILD_TYPE) {
 }
 
 module.exports = buildDist ? config : buildConfig.get();
+if (process.env.SLLM_OUTPUT_DIR) {
+    module.exports.output.path = path.resolve(process.env.SLLM_OUTPUT_DIR);
+    if (publicRelease) module.exports.output.clean = true;
+}

@@ -1,3 +1,4 @@
+/* S-LLM modification: public license, source and consent integration; 2026-10-29. */
 import {defineMessages, injectIntl, intlShape} from 'react-intl';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -68,7 +69,7 @@ const StageHeaderComponent = function (props) {
         const stageButton = showBranding ? (
             <div className={styles.embedSLlmLogo}>
                 <a
-                    href="https://github.com/in044/ScratchLLM"
+                    href="https://github.com/in044/sllm"
                     rel="noopener noreferrer"
                     target="_blank"
                 >

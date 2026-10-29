@@ -32,8 +32,8 @@ Scratchの名称、ロゴ、Scratch Catなどのキャラクターに関する�
 - OpenAI APIとの連携を行うPythonサーバーと管理機能。
 
 Git履歴には2026-02-24以降の本フォークの変更が記録されています。
-直近の機能変更は2026-07-19のステージ配置調整です。
 2026-10-12にREADMEと各パッケージのライセンス・帰属表示を整備しました。
+2026-10-29にS-LLMの名称・URLを整理し、ライセンス・クレジットページと依存・素材台帳を追加しました。
 個々の変更内容、日付、貢献者は`git log`で確認できます。
 
 ## リポジトリ構成
@@ -61,7 +61,7 @@ source .venv/bin/activate
 python -m pip install -r server/requirements.txt
 ```
 
-`server/.env`を作成し、サーバー側の設定を記載します。
+`server/.env.example`を `server/.env` にコピーし、サーバー側の設定を記載します。
 `OPENAI_MODEL`などは利用可能なモデルに合わせて指定してください。
 
 ```dotenv
@@ -71,7 +71,8 @@ OPENAI_SYNTAX_REPAIR_MODEL=your-repair-model
 OPENAI_ASSET_PLANNING_MODEL=your-planning-model
 ```
 
-`packages/scratch-gui/.env`に、フロントエンドから接続するAPIのURLを指定します。
+`packages/scratch-gui/.env.example`を `packages/scratch-gui/.env` にコピーし、
+フロントエンドから接続するAPIのURLを指定します。
 
 ```dotenv
 REACT_APP_API_BASE_URL=http://localhost:3001
@@ -110,12 +111,35 @@ AGPL第4〜6条に従い、配布物にはライセンス全文、著作権・�
 改変版をネットワーク経由で利用させる場合は、AGPL第13条に従い、利用者がその版の対応するソースを
 無償で取得できる方法を画面上で目立つように案内してください。
 本エディターのメニューバーには「ソースコード（GitHub）」へのリンクがあり、現在は
-[S-LLMのソースコード](https://github.com/in044/ScratchLLM)を参照しています。
+[S-LLMのソースコード](https://github.com/in044/sllm)を参照しています。
 公開時には、[リンク先の設定](packages/scratch-gui/src/components/menu-bar/menu-bar.jsx)を
 実際に稼働する版のソースを提供するURLに合わせ、対応するコミットやタグ、取得方法を明示してください。
 上流の未改変ソースだけでは、本フォークの対応するソースの提供にはなりません。
 
 この節は提供手順の要約です。正確な条件は[LICENSE](LICENSE)第4〜6条・第13条を参照してください。
+
+### ライセンス・クレジットの配信と更新
+
+サイト内の「ライセンス・クレジット」から `credits.html` を開けます。
+各ビルドにはライセンス本文、帰属表示、第三者通知を `legal/` として同梱します。
+クリーンなGit作業ツリーでビルドすると、そのコミットのソースへのリンクを生成します。
+変更が残る場合は開発版と表示するため、公開版は変更をコミット・公開した上で再ビルドしてください。
+そのコミットにサーバー側の変更と必要な導入スクリプトも含まれることを照合してください。
+
+依存・素材を変更したら、使用する環境で以下を実行し、差分と要確認一覧をレビューします。
+
+```bash
+npm run licenses:npm
+python scripts/generate-python-license-inventory.py
+node scripts/generate-asset-inventory.cjs
+```
+
+Pythonコマンドはサーバー用の仮想環境を有効にした上で実行します。
+台帳は [docs/licenses](docs/licenses) で管理しています。
+台帳の生成のみで利用条件の確認が完了するわけではありません。
+素材の表示情報は [ASSET_NOTICES.md](ASSET_NOTICES.md) を参照してください。
+
+一般公開に関する問い合わせ先: in044dev@gmail.com
 
 ## 謝辞
 

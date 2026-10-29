@@ -5,18 +5,22 @@
   "description": "S-LLM: natural-language programming assistance for a modified Scratch editor",
   "author": "Scratch Foundation",
   "license": "AGPL-3.0-only",
-  "homepage": "https://github.com/in044/ScratchLLM#readme",
+  "homepage": "https://github.com/in044/sllm#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/in044/ScratchLLM.git"
+    "url": "https://github.com/in044/sllm.git"
   },
   "scripts": {
+    "test:render-fonts": "node scripts/test-render-fonts.cjs",
+    "licenses:npm": "node scripts/generate-license-inventory.cjs",
+    "build:public": "node scripts/prepare-public-release.cjs",
     "refresh-gh-workflow": "ts-node scripts/build-gha-workflows.ts",
     "build-monorepo": "cross-env-shell ./scripts/build-monorepo.sh",
     "prepare": "husky install",
     "build": "cross-env NODE_ENV=production npm run --workspaces build",
     "clean": "npm run --workspaces clean",
-    "version": "cross-env-shell ./scripts/npm-version.sh"
+    "version": "cross-env-shell ./scripts/npm-version.sh",
+    "check:publication": "node scripts/verify-publication.cjs"
   },
   "config": {
     "commitizen": {

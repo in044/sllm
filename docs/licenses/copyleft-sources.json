@@ -1,0 +1,50 @@
+[
+  {
+    "name": "scratch-audio",
+    "version": "2.0.152",
+    "commit": "e4f4134fd44408b9aeed35d6172feca55b678586",
+    "metadataUrl": "https://registry.npmjs.org/scratch-audio/2.0.152",
+    "sourceArchive": "https://codeload.github.com/scratchfoundation/scratch-audio/tar.gz/e4f4134fd44408b9aeed35d6172feca55b678586",
+    "repository": "https://github.com/scratchfoundation/scratch-audio"
+  },
+  {
+    "name": "scratch-l10n",
+    "version": "5.0.255",
+    "commit": "a3a1fba8fa39be77db3d631221c26bde8dbf6e40",
+    "metadataUrl": "https://registry.npmjs.org/scratch-l10n/5.0.255",
+    "sourceArchive": "https://codeload.github.com/scratchfoundation/scratch-l10n/tar.gz/a3a1fba8fa39be77db3d631221c26bde8dbf6e40",
+    "repository": "https://github.com/scratchfoundation/scratch-l10n"
+  },
+  {
+    "name": "scratch-paint",
+    "version": "3.0.270",
+    "commit": "bfa70e9dfdd2b55f03fb6c39308d9457dfc49c02",
+    "metadataUrl": "https://registry.npmjs.org/scratch-paint/3.0.270",
+    "sourceArchive": "https://codeload.github.com/scratchfoundation/scratch-paint/tar.gz/bfa70e9dfdd2b55f03fb6c39308d9457dfc49c02",
+    "repository": "https://github.com/scratchfoundation/scratch-paint"
+  },
+  {
+    "name": "scratch-parser",
+    "version": "6.0.0",
+    "commit": "d48cf549388f2c0fb7f330e8942c7b299ef4f9a9",
+    "metadataUrl": "https://registry.npmjs.org/scratch-parser/6.0.0",
+    "sourceArchive": "https://codeload.github.com/scratchfoundation/scratch-parser/tar.gz/d48cf549388f2c0fb7f330e8942c7b299ef4f9a9",
+    "repository": "https://github.com/scratchfoundation/scratch-parser"
+  },
+  {
+    "name": "scratch-sb1-converter",
+    "version": "2.0.148",
+    "commit": "34487ab1ac5f150a0480b749807853392483e25c",
+    "metadataUrl": "https://registry.npmjs.org/scratch-sb1-converter/2.0.148",
+    "sourceArchive": "https://codeload.github.com/scratchfoundation/scratch-sb1-converter/tar.gz/34487ab1ac5f150a0480b749807853392483e25c",
+    "repository": "https://github.com/scratchfoundation/scratch-sb1-converter"
+  },
+  {
+    "name": "scratch-storage",
+    "version": "4.0.149",
+    "commit": "6ef12f75ce072508f7c98b6bf6ab75857eb587d8",
+    "metadataUrl": "https://registry.npmjs.org/scratch-storage/4.0.149",
+    "sourceArchive": "https://codeload.github.com/scratchfoundation/scratch-storage/tar.gz/6ef12f75ce072508f7c98b6bf6ab75857eb587d8",
+    "repository": "https://github.com/scratchfoundation/scratch-storage"
+  }
+]

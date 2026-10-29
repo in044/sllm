@@ -1,3 +1,4 @@
+/* S-LLM modification: public license, source and consent integration; 2026-10-29. */
 import PropTypes from 'prop-types';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -371,7 +372,8 @@ export class ChatComponent extends React.Component {
             const response = await fetch(ASSET_PLAN_URL, {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json; charset=UTF-8'
+                    'Content-Type': 'application/json; charset=UTF-8',
+                    'X-SLLM-Consent': '2026-10-29'
                 },
                 body: JSON.stringify({
                     userInput,
@@ -566,6 +568,7 @@ export class ChatComponent extends React.Component {
     }
 
     async handleSend() {
+        if (!this.props.hasGlobalConsented || !this.props.hasConsented) return;
         const { inputValue } = this.state;
         if (inputValue.trim() === '' || this.props.isLoading) return;
 
@@ -722,7 +725,8 @@ export class ChatComponent extends React.Component {
         fetch(API_URL, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json; charset=UTF-8'
+                'Content-Type': 'application/json; charset=UTF-8',
+                    'X-SLLM-Consent': '2026-10-29'
             },
             body: JSON.stringify(buildLlmRequestPayload({
                 userInput: llmUserInput,
@@ -809,7 +813,8 @@ export class ChatComponent extends React.Component {
             const response = await fetch(SYNTAX_REPAIR_URL, {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json; charset=UTF-8'
+                    'Content-Type': 'application/json; charset=UTF-8',
+                    'X-SLLM-Consent': '2026-10-29'
                 },
                 body: JSON.stringify({
                     code: scratchCode,
@@ -1032,9 +1037,14 @@ export class ChatComponent extends React.Component {
                         <p style={{ fontSize: '0.9rem', lineHeight: '1.5', marginBottom: '20px' }}>
                             このAIチャット機能は、OpenAI社のサービスを利用しています。<br />
                             13歳未満の方は利用できません。<br />
-                            13歳以上の未成年の方は、保護者の方の監修の上でご利用ください。<br />
+                            13歳以上18歳未満の方は保護者の同意、18歳以上の方はご自身の同意が必要です。<br />
+                            入力・会話・処理に必要な作品情報をOpenAIへ送信します。<br />
                             <br />
                             <strong>個人情報（名前、住所、電話番号など）は絶対に入力しないでください。</strong>
+                            <br />
+                            <a href="terms.html" target="_blank" rel="noopener noreferrer">利用規約</a>
+                            {' ・ '}
+                            <a href="privacy.html" target="_blank" rel="noopener noreferrer">プライバシー・外部送信</a>
                         </p>
                         <button
                             className={styles.sendButton}
@@ -1160,6 +1170,7 @@ export class ChatComponent extends React.Component {
 
 ChatComponent.propTypes = {
     hasConsented: PropTypes.bool,
+    hasGlobalConsented: PropTypes.bool,
     explanationLength: PropTypes.oneOf(['long', 'normal', 'short']),
     isLoading: PropTypes.bool,
     pendingRequestId: PropTypes.string,
@@ -1190,6 +1201,7 @@ const mapStateToProps = state => ({
     vm: state.scratchGui.vm,
     messages: state.scratchGui.chatHistory.messages,
     hasConsented: state.scratchGui.chatHistory.hasConsented,
+    hasGlobalConsented: state.scratchGui.chatHistory.hasGlobalConsented,
     isLoading: state.scratchGui.chatHistory.isLoading,
     pendingRequestId: state.scratchGui.chatHistory.pendingRequestId,
     explanationLength: state.scratchGui.chatHistory.explanationLength

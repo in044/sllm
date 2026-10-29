@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>S-LLM — ライセンス・クレジット</title>
+    <style>
+        body { margin: 0; background: #f5f7fa; color: #26344a; font: 16px/1.8 system-ui, sans-serif; }
+        main { max-width: 760px; margin: 40px auto; padding: 32px; background: white; border-radius: 16px; }
+        h1 { font-size: 1.8rem; line-height: 1.4; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+        a { color: #305bc4; text-underline-offset: 3px; } a:focus-visible { outline: 3px solid #305bc4; outline-offset: 4px; }
+        li { margin-bottom: .5rem; } .version { overflow-wrap: anywhere; }
+        @media (max-width: 600px) { main { margin: 0; padding: 24px; border-radius: 0; } }
+    </style>
+</head>
+<body><main>
+    <a href="index.html">エディターへ</a>
+    <h1>S-LLM<br>ライセンス・クレジット</h1>
+    <p>S-LLMはScratch Editorを改変し、自然言語によるプログラミング支援を追加したソフトウェアです。
+        Scratch FoundationおよびMITの公式製品ではなく、両者による承認・推奨を示すものではありません。</p>
+    <h2>ソフトウェアのライセンス</h2>
+    <p>本ソフトウェアはGNU Affero General Public License version 3 only（AGPL-3.0-only）で提供します。
+        同ライセンスの条件に従って利用・改変・再配布できます。法令で認められる範囲で無保証です。</p>
+    <ul>
+        <li><a href="legal/LICENSE.txt">AGPLライセンス全文</a></li>
+        <li><a href="legal/NOTICE.txt">S-LLMの帰属・改変表示</a></li>
+        <li><a href="legal/THIRD_PARTY_NOTICES.txt">依存ライブラリのライセンス・著作権表示</a></li>
+        <li><a href="legal/PYTHON_THIRD_PARTY_NOTICES.txt">Pythonライブラリのライセンス・著作権表示</a></li>
+        <li><a href="legal/ASSET_NOTICES.txt">画像・音声・フォントの出典・表示情報</a></li>
+        <li><a href="legal/FONT_NOTICES.txt">描画フォントの著作権・ライセンス表示</a></li>
+    </ul>
+    <h2>ソースコード</h2>
+    <p>変更済みコード、サーバー、プロンプト、ビルド・起動手順を無償で取得できます。</p>
+    <p>Scratch is developed by the Scratch Foundation and its partners and affiliates. See <a href="https://scratch.org/">https://scratch.org/</a>.</p>
+    <p><a href="<%= htmlWebpackPlugin.options.sourceUrl %>">この版のソースコードを取得</a> ・ <a href="https://github.com/in044/sllm">GitHubリポジトリ</a></p>
+    <p class="version">このビルドの版: <%= htmlWebpackPlugin.options.sourceVersion %></p>
+    <h2>原著作者と変更</h2>
+    <p>原著作者はScratch Foundation、Massachusetts Institute of TechnologyおよびScratchの貢献者です。
+        <a href="https://github.com/scratchfoundation/scratch-editor">上流のScratch Editor</a>に感謝します。</p>
+    <p>S-LLMではAIチャット、ブロック生成・説明・修復、素材の検索・追加、画面構成、AI連携サーバーを追加・変更しています。
+        変更者と日付はソースコードのGit履歴に記録しています。ライセンス・帰属表示の更新日: 2026-10-29。</p>
+    <ul>
+        <% for (const name of ['scratch-gui', 'scratch-vm', 'scratch-render', 'scratch-svg-renderer']) { %>
+        <li><a href="legal/package-notices/<%= name %>.txt"><%= name %>の継承した著作権・BSD表示</a></li>
+        <% } %>
+    </ul>
+    <h2>名称・キャラクターと作品</h2>
+    <p>Scratchの名称、ロゴ、Scratch Cat等のキャラクターに関する商標はScratch Foundationに帰属します。
+        ソフトウェアのライセンスは、これらを派生製品の推奨・宣伝に使う許可を与えるものではありません。
+        <a href="legal/TRADEMARK.txt">商標に関する表示</a>をご覧ください。</p>
+    <p>依存ライブラリや画像・音声・フォントには、それぞれの利用条件が適用されます。
+        本ソフトウェアを使って作成した作品すべてに、自動的にAGPLが適用されるわけではありません。
+        取り込んだ素材やコードの条件を個別に確認してください。</p>
+    <h2>お問い合わせ</h2>
+    <p><a href="terms.html">利用規約</a> ・ <a href="privacy.html">プライバシー・外部送信</a></p>
+    <p>S-LLMに関するお問い合わせ: <a href="mailto:in044dev@gmail.com">in044dev@gmail.com</a></p>
+    <p><a href="https://scratch.mit.edu/">公式のScratchサイト</a></p>
+</main></body>
+</html>

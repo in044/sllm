@@ -1,0 +1,19 @@
+[Unit]
+Description=S-LLM public API
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/sllm/current/server
+EnvironmentFile=/var/www/sllm/shared/backend.env
+Environment=SLLM_PUBLIC_RELEASE=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/env SLLM_PUBLIC_RELEASE=1 /var/www/sllm/venv/bin/gunicorn --threads 8 --workers 1 --bind 127.0.0.1:3002 --error-logfile /dev/stderr --log-level warning app:app
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,310 @@
+{
+  "audio-context@1.0.3": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/audio-context-1.0.3-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/audio-context/1.0.3",
+    "registryCommit": "09b83d885433b6b2a6c4defdc2aabc7ab380c188",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "balance-text@3.3.1": {
+    "license": "Apache-2.0",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/balance-text-3.3.1-LICENSE",
+      "docs/licenses/supplemental/balance-text-3.3.1-NOTICE"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/balance-text/3.3.1",
+    "registryCommit": "0f0826f7a9933cdb478cacea99196e4b874bfd0d",
+    "evidence": [
+      {
+        "path": "docs/licenses/supplemental/balance-text-3.3.1-LICENSE",
+        "url": "https://raw.githubusercontent.com/adobe-webplatform/balance-text/0f0826f7a9933cdb478cacea99196e4b874bfd0d/LICENSE"
+      },
+      {
+        "path": "docs/licenses/supplemental/balance-text-3.3.1-NOTICE",
+        "url": "https://raw.githubusercontent.com/adobe-webplatform/balance-text/0f0826f7a9933cdb478cacea99196e4b874bfd0d/NOTICE"
+      }
+    ],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "isarray@1.0.0": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/isarray-1.0.0-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/isarray/1.0.0",
+    "registryCommit": "2a23a281f369e9ae06394c0fb4d2381355a6ba33",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "domutils@1.5.1": {
+    "license": "BSD-2-Clause",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/domutils-1.5.1-LICENSE"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/domutils/1.5.1",
+    "registryCommit": "7d4bd16cd36ffce62362ef91616806ea27e30d95",
+    "evidence": [
+      {
+        "path": "docs/licenses/supplemental/domutils-1.5.1-LICENSE",
+        "url": "https://raw.githubusercontent.com/FB55/domutils/7d4bd16cd36ffce62362ef91616806ea27e30d95/LICENSE"
+      }
+    ],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "format-message@6.2.4": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/format-message-6.2.4-LICENSE-MIT"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/format-message/6.2.4",
+    "registryCommit": "ece4dfacbec6af56e98897a3acbf0c99c64c2ed2",
+    "evidence": [
+      {
+        "path": "docs/licenses/supplemental/format-message-6.2.4-LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/format-message/format-message/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2/LICENSE-MIT"
+      }
+    ],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "format-message-formats@6.2.4": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/format-message-formats-6.2.4-LICENSE-MIT"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/format-message-formats/6.2.4",
+    "registryCommit": "ece4dfacbec6af56e98897a3acbf0c99c64c2ed2",
+    "evidence": [
+      {
+        "path": "docs/licenses/supplemental/format-message-formats-6.2.4-LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/format-message/format-message/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2/LICENSE-MIT"
+      }
+    ],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "format-message-interpret@6.2.4": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/format-message-interpret-6.2.4-LICENSE-MIT"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/format-message-interpret/6.2.4",
+    "registryCommit": "ece4dfacbec6af56e98897a3acbf0c99c64c2ed2",
+    "evidence": [
+      {
+        "path": "docs/licenses/supplemental/format-message-interpret-6.2.4-LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/format-message/format-message/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2/LICENSE-MIT"
+      }
+    ],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "format-message-parse@6.2.4": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/format-message-parse-6.2.4-LICENSE-MIT"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/format-message-parse/6.2.4",
+    "registryCommit": "ece4dfacbec6af56e98897a3acbf0c99c64c2ed2",
+    "evidence": [
+      {
+        "path": "docs/licenses/supplemental/format-message-parse-6.2.4-LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/format-message/format-message/ece4dfacbec6af56e98897a3acbf0c99c64c2ed2/LICENSE-MIT"
+      }
+    ],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "get-float-time-domain-data@0.1.0": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/get-float-time-domain-data-0.1.0-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/get-float-time-domain-data/0.1.0",
+    "registryCommit": "0aad05326e8e0ce3cd550f1ccd5996af945031ba",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "get-user-media-promise@1.1.4": {
+    "license": "Apache-2.0",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/get-user-media-promise-1.1.4-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/get-user-media-promise/1.1.4",
+    "registryCommit": "ae919548d6c62838bc9173ae67b5b4daa67b1492",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "grapheme-breaker@0.3.2": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/grapheme-breaker-0.3.2-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/grapheme-breaker/0.3.2",
+    "registryCommit": "5aeb64c01fef20c6338302b42189e7898fe8e4d3",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "is-in-browser@1.1.3": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/is-in-browser-1.1.3-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/is-in-browser/1.1.3",
+    "registryCommit": "653d0586c8d40db93262536ec60a4d2d50f3d78d",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "keymirror@0.1.1": {
+    "license": "Apache-2.0",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/keymirror-0.1.1-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/keymirror/0.1.1",
+    "registryCommit": "2dafae96f33088e3030804f1113543c3c6c130b7",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "linebreak@0.3.0": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/linebreak-0.3.0-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/linebreak/0.3.0",
+    "registryCommit": "33faa05d16082ef47873fbf5ca8bbb15782d668d",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "lookup-closest-locale@6.2.0": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/lookup-closest-locale-6.2.0-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/lookup-closest-locale/6.2.0",
+    "registryCommit": null,
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "microee@0.0.6": {
+    "license": null,
+    "disposition": "excluded-from-browser",
+    "reason": "Replaced with an adapter over the MIT events module; package metadata only specified BSD."
+  },
+  "omggif@1.0.10": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/omggif-1.0.10-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/omggif/1.0.10",
+    "registryCommit": "334a0c0b6aa2eb5e63fae64ba7911ee647655ab2",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "color-convert@0.5.3": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/color-convert-0.5.3-LICENSE"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/color-convert/0.5.3",
+    "registryCommit": "c05e34eb75de749faf15f0e362147a6add373625",
+    "evidence": [
+      {
+        "path": "docs/licenses/supplemental/color-convert-0.5.3-LICENSE",
+        "url": "https://raw.githubusercontent.com/harthur/color-convert/c05e34eb75de749faf15f0e362147a6add373625/LICENSE"
+      }
+    ],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "react-popover@0.5.10": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/react-popover-0.5.10-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/react-popover/0.5.10",
+    "registryCommit": "905e7545e32806abf8ee38f4557621e9bc5b1c1a",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "redux-throttle@0.1.1": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/redux-throttle-0.1.1-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/redux-throttle/0.1.1",
+    "registryCommit": "e6499b2336e901b179b90f42df31e69e9f3eafa5",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "to-style@1.3.3": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/to-style-1.3.3-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/to-style/1.3.3",
+    "registryCommit": "43e38cfbfb361091f916666954a501669997da15",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "unicode-trie@0.3.1": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/unicode-trie-0.3.1-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/unicode-trie/0.3.1",
+    "registryCommit": "0e19655c9c291c133e577bcacd2c25b7c82455f7",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "wav-encoder@1.3.0": {
+    "license": "MIT",
+    "disposition": "reviewed",
+    "files": [
+      "docs/licenses/supplemental/wav-encoder-1.3.0-LICENSE-AND-ATTRIBUTION.txt"
+    ],
+    "metadataUrl": "https://registry.npmjs.org/wav-encoder/1.3.0",
+    "registryCommit": "c67e7809d169106ed3a8e2611b0c368e79d202e0",
+    "evidence": [],
+    "reason": "Versioned publisher declaration and supplied notices retained; full terms included."
+  },
+  "hull.js@0.2.10": {
+    "license": "BSD-3-Clause",
+    "disposition": "reviewed",
+    "files": [
+      "node_modules/hull.js/LICENSE"
+    ],
+    "reason": "Installed LICENSE contains the three BSD conditions, copyright Andrii Heonia 2014-2015."
+  },
+  "scratch-render-fonts@1.0.197": {
+    "license": "(Apache-2.0 AND OFL-1.1 AND CC-BY-SA-3.0)",
+    "disposition": "reviewed-shipped-subset",
+    "files": [
+      "FONT_NOTICES.txt"
+    ],
+    "reason": "Apache-2.0 loader code plus six individually reviewed, unmodified font files. Not a license declaration for the original archive. Scratch.ttf is excluded by webpack; exact shipped font hashes are enforced by verify-publication.cjs. Source offers remove Scratch.ttf from the npm archive.",
+    "evidence": [
+      "docs/licenses/render-fonts-review.json",
+      "docs/licenses/font-evidence.json",
+      "docs/licenses/asset-provenance.json"
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "file": "node_modules/scratch-render-fonts/src/Grand9K-Pixel.ttf",
+    "metadata": {
+      "0": [
+        "© 2009, 2010, 2011, 2012, 2013 Grand Chaos Productions. Some Rights Reserved."
+      ],
+      "1": [
+        "Grand9K Pixel"
+      ],
+      "9": [
+        "Jayvee D. Enaguas (Grand Chaos)"
+      ],
+      "14": [
+        "http://creativecommons.org/licenses/by-sa/3.0/"
+      ]
+    }
+  },
+  {
+    "file": "node_modules/scratch-render-fonts/src/Griffy-Regular.ttf",
+    "metadata": {
+      "0": [
+        "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Griffy\""
+      ],
+      "1": [
+        "Griffy"
+      ],
+      "8": [
+        "Font Diner, Inc DBA Neapolitan"
+      ],
+      "9": [
+        "Squid"
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    }
+  },
+  {
+    "file": "node_modules/scratch-render-fonts/src/Knewave.ttf",
+    "metadata": {
+      "0": [
+        "Copyright (c) 2011 by Tyler Finck. All rights reserved."
+      ],
+      "1": [
+        "Knewave"
+      ],
+      "8": [
+        "Tyler Finck"
+      ],
+      "9": [
+        "Tyler Finck"
+      ],
+      "13": [
+        "OFL"
+      ]
+    }
+  },
+  {
+    "file": "node_modules/scratch-render-fonts/src/NotoSans-Medium.ttf",
+    "metadata": {
+      "0": [
+        "Copyright 2015 Google Inc. All Rights Reserved."
+      ],
+      "1": [
+        "Noto Sans Med"
+      ],
+      "8": [
+        "Monotype Imaging Inc."
+      ],
+      "9": [
+        "Monotype Design Team"
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    }
+  },
+  {
+    "file": "node_modules/scratch-render-fonts/src/Scratch.ttf",
+    "metadata": {
+      "0": [
+        "By Jakob Fischer aka PizzaDude *Distribute freely*"
+      ],
+      "1": [
+        "ScratchFont"
+      ]
+    }
+  },
+  {
+    "file": "node_modules/scratch-render-fonts/src/SourceSerifPro-Regular.otf",
+    "metadata": {
+      "0": [
+        "Copyright 2014, 2015, 2016 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "1": [
+        "Source Serif Pro"
+      ],
+      "8": [
+        "Adobe Systems Incorporated"
+      ],
+      "9": [
+        "Frank Grießhammer"
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\r\n\r\nThis Font Software is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    }
+  },
+  {
+    "file": "node_modules/scratch-render-fonts/src/handlee-regular.ttf",
+    "metadata": {
+      "0": [
+        "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com/) with Reserved Font Name Handlee."
+      ],
+      "1": [
+        "Handlee"
+      ],
+      "8": [
+        "Joe Prince"
+      ],
+      "9": [
+        "Joe Prince"
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    }
+  }
+]
